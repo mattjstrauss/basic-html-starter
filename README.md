@@ -1,4 +1,4 @@
-# Project Build w/ Gulp.js
+# A basic HTML starter project with Sass and Gulp.js
 
 ## Project Languages
 1. HTML5
