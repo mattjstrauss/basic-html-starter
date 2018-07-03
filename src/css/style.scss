@@ -11,9 +11,20 @@
     'base/_typography',
     'base/_helpers';
 
-// 3. Components
+// 3. Elements
 @import
-    'components/_header',
-    'components/_footer',
-    'components/_onboarding',
-    'components/_carousel';
+    'elements/_buttons',
+    'elements/_lists';
+
+// 4. Blocks
+// Typically used once per view)
+@import
+    'blocks/_header',
+    'blocks/_footer';
+
+// 5. Components 
+// Similar to blocks but built to use as many times as needed per view
+
+// 6. Modifiers
+@import
+    'modifiers/_alignment';

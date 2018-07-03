@@ -18,10 +18,5 @@ $(document).ready(function(){
 	//   document.body.insertBefore(div, document.body.childNodes[0]);
 	// });
 
-	onboarding({
-	});
-
-	// console.log(onboarding.settings);
-
 })
 //# sourceMappingURL=maps/scripts.js.map

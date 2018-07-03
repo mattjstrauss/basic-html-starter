@@ -10,10 +10,7 @@
 2. [Eric Meyers reset](https://meyerweb.com/eric/tools/css/reset/) and [Normalize.css](https://necolas.github.io/normalize.css/): Makes browsers render all elements more consistently and in line with modern standards.
 3. [Modernizer](https://modernizr.com/): A collection of superfast tests – or “detects” as we like to call them – which run as your web page loads, then you can use the results to tailor the experience to the user.
 4. [TweenMax by Greensock](https://greensock.com/tweenmax): Built for convenience, TweenMax provides a single JavaScript file that contains everything you will commonly need for animating DOM elements.
-5. [SlickSlider by Ken Wheeler](kenwheeler.github.io/slick/): "The last carousel you'll ever need". Not really but its pretty solid and free.
-6. [SVG for Everybody](https://jonathantneal.github.io/svg4everybody/): SVG for Everybody adds external spritemaps support to otherwise SVG-capable browsers.
-7. [Covervid](http://stefanerickson.github.io/covervid/): Make your HTML5 video behave like a background cover image with this lightweight Javascript plugin / jQuery extension 
-8. [Video.js](http://videojs.com/): Video.js is an open source library for working with video on the web, also known as an HTML video player
+5. [SVG for Everybody](https://jonathantneal.github.io/svg4everybody/): SVG for Everybody adds external spritemaps support to otherwise SVG-capable browsers.
 
 ### Working with [Gulp.js](https://gulpjs.com/)
 1. Dependencies [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/get-npm)
