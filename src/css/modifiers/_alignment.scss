@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+
+.align-left {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+.align-right {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+.align-center {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Text alignment helpers
+ --------------------------------------------------------------*/
+
+.text-align-left {
+	text-align: left !important;
+}
+.text-align-center {
+	text-align: center !important;
+}
+.text-align-right {
+	text-align: right !important;
+}
+
+/*--------------------------------------------------------------
+ * Vertically center content
+ --------------------------------------------------------------*/
+
+.center-wrapper {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.center-content {
+	display: table-cell;
+	height: 100%;
+	width: 100%;
+	vertical-align: middle;
+}
