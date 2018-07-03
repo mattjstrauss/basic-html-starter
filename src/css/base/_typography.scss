@@ -4,7 +4,7 @@
 ============================================================== */
 
 html {
-	font: normal 16px / 1.65 $sansSerif;
+	font: normal 14px / 1.65 $sansSerif;
 }
 body {
   word-wrap: break-word;
@@ -14,7 +14,7 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
+	color: $black;
 	font-size: 1rem;
 	line-height: 1.5;
 }
@@ -57,7 +57,7 @@ h6 {
 p {
 	line-height: 1.5;
     margin: 0 0 1em;
-    hyphens: auto; 
+    hyphens: auto;
 }
 a {
 	text-decoration: none;
