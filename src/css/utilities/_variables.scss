@@ -7,18 +7,12 @@
 
 $white:							#fff !default;
 $black:							#000;
-$grayDark:              		#121212;
-$grayMed:						#1c1c1c;
-$grayLight:						#e0e0e0;
 $gray:							#a4a4a4;
-$neonGreen:						#D6FB1A;
-$purple: 						#772B90;
-$yellow: 						#FFBD00;
-$blue:							#22A3F1;
-$teal:							#12E9DA;
+$grayDark:              		lighten($gray, 15%);
+$grayLight:						darken($gray, 15%);
+$blue:							#6aaff5;
 
-
-// Scaffolding
+// Body
 // --------------------------------------------------
 
 $bodyBackground:        		$white !default;
@@ -28,7 +22,7 @@ $textColor:             		$grayDark !default;
 // Links
 // --------------------------------------------------
 
-$linkColor:             		blue !default;
+$linkColor:             		$blue !default;
 $linkColorHover:        		darken($linkColor, 15%) !default;
 
 // Buttons
@@ -48,7 +42,7 @@ $pageTrans: 					cubic-bezier(.54,.06,.55,.97);
 // Typography
 // --------------------------------------------------
 
-$sansSerif:						'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$sansSerif:						"Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $serif:							Times, Georgia, serif;
 		
 $baseFontSize:          		16px !default;
