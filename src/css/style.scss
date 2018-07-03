@@ -1,0 +1,19 @@
+// 1. Configuration and helpers
+@import
+    'utilities/_fonts',
+    'utilities/_variables',
+    'utilities/_mixins',
+    'utilities/_grid';
+
+// 2. Base
+@import
+    'base/_reset',
+    'base/_typography',
+    'base/_helpers';
+
+// 3. Components
+@import
+    'components/_header',
+    'components/_footer',
+    'components/_onboarding',
+    'components/_carousel';

@@ -1,0 +1,133 @@
+/* ==============================================================
+# Typography:
+# This file contains general typography styles.
+============================================================== */
+
+html {
+	font: normal 16px / 1.65 $sansSerif;
+}
+body {
+  word-wrap: break-word;
+}
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	text-rendering: optimizeLegibility;
+	line-height: 1;
+	margin-top: 0;
+	font-weight: 700;
+}
+h1 {
+  font-size: 2.986em;
+  margin-bottom: 2.42424rem;
+}
+h2 {
+  font-size: 2.488em;
+  margin-bottom: 2.0202rem;
+}
+h3 {
+  font-size: 2.074em;
+  margin-bottom: 1.61616rem;
+}
+h4 {
+  font-size: 1.728em;
+  margin-bottom: 1.21212rem;
+}
+h5 {
+  font-size: 1.44em;
+  margin-bottom: 0.80808rem;
+}
+h6 {
+  font-size: 1.2em;
+  margin-bottom: 0.60606rem;
+}
+p {
+	line-height: 1.5;
+    margin: 0 0 1em;
+    hyphens: auto; 
+}
+a {
+	text-decoration: none;
+}
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+strong  {
+	font-weight: bold;
+}
+
+blockquote {
+	margin: 0 1.5em;
+	font-style: italic; 
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+blockquote,
+q {
+	quotes: "" "";
+}
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+address {
+	margin: 0 0 1.5em;
+}
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+code,
+kbd,
+tt,
+var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+big {
+	font-size: 125%;
+}
+small {
+  font-size: 65%;
+}
