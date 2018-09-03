@@ -1,30 +1,43 @@
-// 1. Configuration and helpers
+/* --------------------------------------------------------------
+# 1. Settings and configuration
+-------------------------------------------------------------- */
 @import
-    'utilities/_fonts',
-    'utilities/_variables',
-    'utilities/_mixins',
-    'utilities/_grid';
+    '0-settings/_fonts',
+    '0-settings/_variables';
 
-// 2. Base
+/* --------------------------------------------------------------
+# 2. Mixins, functions and operations that help build concepts
+-------------------------------------------------------------- */
 @import
-    'base/_reset',
-    'base/_typography',
-    'base/_helpers';
+    '1-tools/_mixins',
+    '1-tools/_grid';
 
-// 3. Elements
+/* --------------------------------------------------------------
+# 3. Base/reset for normalizing accross browers and devices
+-------------------------------------------------------------- */
 @import
-    'elements/_buttons',
-    'elements/_lists';
+    '2-base/_reset';
 
-// 4. Blocks
-//Typically used once per view)
+/* --------------------------------------------------------------
+# 3. "Small" elements used to build larger components
+-------------------------------------------------------------- */
 @import
-    'blocks/_header',
-    'blocks/_footer';
+    '3-elements/_typography',
+    '3-elements/_buttons',
+    '3-elements/_inputs',
+    '3-elements/_lists';
 
-// 5. Components 
-// Similar to blocks but built to use as many times as needed per view
-
-// 6. Modifiers
+/* --------------------------------------------------------------
+# 4. Components
+-------------------------------------------------------------- */
 @import
-    'modifiers/_alignment';
+    '4-components/_header',
+    '4-components/_footer';
+
+/* --------------------------------------------------------------
+# 5. Utilities, helpers and modifiers to extend prior ideas
+-------------------------------------------------------------- */
+@import
+    '5-utilities/_accessibility',
+    '5-utilities/_alignment',
+    '5-utilities/_positioning';

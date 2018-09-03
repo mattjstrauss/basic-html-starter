@@ -62,17 +62,6 @@ p {
 a {
 	text-decoration: none;
 }
-dfn,
-cite,
-em,
-i {
-	font-style: italic;
-}
-
-strong  {
-	font-weight: bold;
-}
-
 blockquote {
 	margin: 0 1.5em;
 	font-style: italic; 
@@ -86,6 +75,14 @@ q:after {
 blockquote,
 q {
 	quotes: "" "";
+}
+cite,
+em,
+i {
+	font-style: italic;
+}
+strong  {
+	font-weight: bold;
 }
 hr {
 	background-color: #ccc;

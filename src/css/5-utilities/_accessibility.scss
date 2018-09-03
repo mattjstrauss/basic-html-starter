@@ -1,25 +1,6 @@
 /* ==============================================================
-# Helpers:
-# This contains CSS "helper" classes to be used as modifiers
-# agnostic from the furture objects created
-============================================================== */
-
-/* Clear inner floats*/
-.cf:before,
-.cf:after {
-    content:"";
-    display:table;
-}
-.cf:after {
-    clear:both;
-}
-.cf{
-  *zoom: 1;
-}
-
-/*--------------------------------------------------------------
 # Accessibility
---------------------------------------------------------------*/
+============================================================== */
 
 /* Text meant only for screen readers. */
 
@@ -53,6 +34,6 @@
 
 /* Do not show the outline on the skip link target. */
 
-#content[tabindex="-1"]:focus {
+[tabindex="-1"]:focus {
   outline: 0;
 }
