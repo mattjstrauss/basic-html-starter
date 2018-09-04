@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$('body').removeClass('loading');
 
 	// ==============================================================*/
-	// Create node and insert SVG file after the body TBD
+	// Create node and insert SVG file after the body
 	// ==============================================================*/
 
 	// Remove local file and uncomment below once on the dev server
