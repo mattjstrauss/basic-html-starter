@@ -1,43 +1,49 @@
 /* --------------------------------------------------------------
+# 0. Vendor files
+-------------------------------------------------------------- */
+@import
+    '0-vendor/_grid-v4';
+
+/* --------------------------------------------------------------
 # 1. Settings and configuration
 -------------------------------------------------------------- */
 @import
-    '0-settings/_fonts',
-    '0-settings/_variables';
+    '1-settings/_fonts',
+    '1-settings/_functions',
+    '1-settings/_variables';
 
 /* --------------------------------------------------------------
 # 2. Mixins, functions and operations that help build concepts
 -------------------------------------------------------------- */
 @import
-    '1-tools/_mixins',
-    '1-tools/_grid';
+    '2-tools/_mixins';
 
 /* --------------------------------------------------------------
 # 3. Base/reset for normalizing accross browers and devices
 -------------------------------------------------------------- */
 @import
-    '2-base/_reset';
+    '3-base/_reset';
 
 /* --------------------------------------------------------------
-# 3. "Small" elements used to build larger components
+# 4. "Small" elements used to build larger components
 -------------------------------------------------------------- */
 @import
-    '3-elements/_typography',
-    '3-elements/_buttons',
-    '3-elements/_inputs',
-    '3-elements/_lists';
+    '4-elements/_typography',
+    '4-elements/_buttons',
+    '4-elements/_inputs',
+    '4-elements/_lists';
 
 /* --------------------------------------------------------------
-# 4. Components
+# 5. Components
 -------------------------------------------------------------- */
 @import
-    '4-components/_header',
-    '4-components/_footer';
+    '5-components/_header',
+    '5-components/_footer';
 
 /* --------------------------------------------------------------
-# 5. Utilities, helpers and modifiers to extend prior ideas
+# 6. Utilities, helpers and modifiers to extend prior ideas
 -------------------------------------------------------------- */
 @import
-    '5-utilities/_accessibility',
-    '5-utilities/_alignment',
-    '5-utilities/_positioning';
+    '6-utilities/_accessibility',
+    '6-utilities/_alignment',
+    '6-utilities/_positioning';

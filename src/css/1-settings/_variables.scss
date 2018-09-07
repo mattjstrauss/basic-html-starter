@@ -1,0 +1,41 @@
+/* ==============================================================
+# Variables
+============================================================== */
+
+/* General Colors */
+
+$white:							#fff !default;
+$black:							#000;
+$gray:							#a4a4a4;
+$grayDark:              		lighten($gray, 15%);
+$grayLight:						darken($gray, 15%);
+$blue:							#6aaff5;
+
+/* Link Colors */
+
+$linkColor:             		$blue !default;
+$linkColorHover:        		darken($linkColor, 15%) !default;
+
+/* Button Colors */
+
+$buttonBackground:				$gray;
+$buttonColor:					$white;
+$buttonBackgroundHover:			$grayLight;
+$buttonColorHover:				$gray;
+
+/* --------------------------------------------------------------
+# Transitions
+-------------------------------------------------------------- */
+
+$cbTrans: 						cubic-bezier(0.165, 0.84, 0.44, 1);
+$pageTrans: 					cubic-bezier(.54,.06,.55,.97);
+
+/* --------------------------------------------------------------
+# Typography
+-------------------------------------------------------------- */
+
+$sansSerif:						"Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$serif:							Times, Georgia, serif;
+		
+$baseFontSize:          		16px !default;
+$baseLineHeight:        		1.65 !default;
